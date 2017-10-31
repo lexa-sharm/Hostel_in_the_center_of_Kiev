@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Хостел в центре Киева</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,400italic,700,300italic,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'> -->
+
+	<link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script>
+		document.onclick = function(e) {
+			var target = e && e.target || window.event.srcElement;
+
+			if (target.parentNode.getAttribute('class') == "sliderkit-img" && target.tagName == "IMG") {
+
+				var bigImg = document.getElementById('sliderkit-panel')
+				var newImg = document.querySelector('.sliderkit-panel img');
+				newImg.src = target.getAttribute('src');
+			} 
+			
+		}
+	</script>
+
+
+</head>
+<body>
+<header id="main-header" class="main-header">
+	<div class="top-line">
+		<div class="container">
+			<div class="top-line__logo">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="Логотип" class="logo-img"></a>
+			</div>
+			<div class="lang">
+				<a href="index.html" class="language active">ENG</a>
+			</div>
+			<nav class="main-nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#header">Номера и цены</a></li>
+					<li class="nav-item"><a href="#header">Дополнительные услуги</a></li>
+					<li class="nav-item"><a href="#header">Что мы предлагаем</a></li>
+					<li class="nav-item"><a href="#header">Отзывы</a></li>
+					<li class="nav-item"><a href="#header">Рядом с нами</a></li>
+					<li class="nav-item"><a href="#header">Как добраться</a></li>
+					<li class="nav-item"><a href="#header">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="descriptor">
+		<div class="container">
+			<div class="row">
+				<div class="reserv__main-header col-lg-8">
+					<div class="descr">
+						<h1>ХОСТЕЛ в центре Киева</h1>
+					</div>
+					<div class="advantage">
+						<div class="advantage-item advantage-item-1">
+							<p>Оплата: наличными или картой цена от 150 грн/сутки</p>
+						</div>
+						<div class="advantage-item advantage-item-2">
+							<p>Удобное расположение в центре Киева</p>
+						</div>
+						<div class="advantage-item advantage-item-3">
+							<p>8-6-2-1-местные комнаты комфортные условия</p>
+						</div>
+					</div>
+					<div class="reserv-btn">
+						<a href="">Забронировать</a>
+					</div>
+				</div>
+				<div class="request-call__main-header col-lg-4">
+					<div class="phone"><p>+38 (044) <b>123-45-67</b><br>+38 (096) <b>123-45-67</b></p></div>
+					<div class="request-call-btn">
+						<a href="">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="tabs" class="tabs-contain">
+	<div class="container">
+
+		<div class="sec-title tabs-header">
+			<span>Номера и цены</span>
+			<div class="date">
+				<label for="date">Стоимость:</label>
+				<select id="date" name="date" form="contacts">
+					<option value="day1">с 30.12.15 до 10.01.16</option>
+					<option value="day2">с 30.12.15 до 10.01.16</option>
+					<option value="day3">с 30.12.15 до 10.01.16</option>
+				</select>
+			</div>
+		</div>
+
+
+		<div class="tabs row">
+			<div class="tabs-nav col-lg-3">
+				<div class="tabs-nav-clip">
+					<ul>
+						<li class="tabs-selected"><a href="#" data-id="1">ОБЩИЙ<br> 8 человек</a></li>
+						<li><a href="#" data-id="2">ОБЩИЙ<br> 6 человек</a></li>
+						<li><a href="#" data-id="3">ЖЕНСКИЙ<br> 6 человек</a></li>
+						<li><a href="#" data-id="4">МУЖСКОЙ<br> 6 человек</a></li>
+						<li><a href="#" data-id="5">VIP - 1<br> 1-2 человека</a></li>
+						<li><a href="#" data-id="6">VIP - 2<br> 1-2 человека</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="tabs-panels col-lg-9">
+
+
+				<div class="tabs-panel tabs-panel-active" data-id="1">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>ОБЩИЙ номер для 8 человек</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+				<div class="tabs-panel" data-id="2">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>ОБЩИЙ номер для 6 человек</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+				<div class="tabs-panel" data-id="3">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>ЖЕНСКИЙ номер для 6 человек</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+
+				<div class="tabs-panel" data-id="4">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>МУЖСКОЙ номер для 6 человек</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+
+
+				<div class="tabs-panel" data-id="5">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>VIP - 1, 1-2 человека</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+
+				<div class="tabs-panel" data-id="6">
+
+					<div class="row-top row">
+						<div class="left-descr col-lg-7">
+							<div class="title-number">
+								<h3>VIP - 2, 1-2 человека</h3>
+							</div>
+							<div class="description-number">
+								<p>Большие двухъярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы. Санузел на этаже. В номере есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+							</div>
+							<div class="price-number">
+								<span>вс.- ср. 140 грн</span>
+								<span>чт.- сб. 150 грн</span>
+								<span>место/сутки</span>
+							</div>
+							<div class="reserv-btn">
+								<a href="">Забронировать</a>
+							</div>
+						</div>
+						<div class="right-descr col-lg-5">
+							<div class="slider">
+								<div class="sliderkit-nav">
+										<ul>
+											<li class="sliderkit-img"><img src="img/slider_img5.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img4.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img3.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img2.jpg" alt=""></li>
+											<li class="sliderkit-img"><img src="img/slider_img1.jpg" alt=""></li>
+										</ul>
+								</div>
+								<div id="sliderkit-panel" class="sliderkit-panel">
+									<img src="img/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="options-number row">				
+						<div class="item-option">Заезд в 14-00,<br> выезд в 11-00</div>
+						<div class="item-option">Горячая<br> вода 24/7</div>
+						<div class="item-option">Wi-Fi </div>
+						<div class="item-option">Индивидуальные<br> светильники и розетки</div>
+						<div class="item-option">Шкафчики<br> на замках </div>
+						<div class="item-option">Постельное бельё и полотенца<br> высокого качества</div>
+					</div>
+
+				</div>
+
+
+
+
+			</div>
+		</div>
+
+
+	</div>	
+</section>
+
+
+<section class="addition">
+	<div class="container">
+		<div class="sec-title addition-header">
+			<span>Дополнительные услуги</span>
+		</div>
+		<div class="items-addition col-lg-8">
+			<div class="item-addition">Стирка, глажка</div>
+			<div class="item-addition">Трансфер</div>
+			<div class="item-addition">Хранение багажа</div>
+			<div class="item-addition">Книги</div>
+			<div class="item-addition">Экскурсии</div>
+			<div class="item-addition">Велопрокат</div>
+			<div class="item-addition">Заказ еды</div>
+			<div class="item-addition">Настольные игры</div>
+			<div class="item-addition">Заказ билетов</div>
+			<div class="item-addition">Будильник</div>
+			<div class="item-addition">Парковка</div>
+			<div class="item-addition">Скидки</div>
+		</div>
+	</div>	
+</section>
+
+
+
+<section id="clients" class="clients">
+	<div class="container">
+		<div class="sec-title clients-header">
+			<span>Отзывы:</span>
+		</div>
+		<div class="swiper-container swiper-clients">
+			<div class="swiper-wrapper">
+
+				<div class="clients__item swiper-slide">
+					<div class="clients__item-img">
+						<img src="img/clients-img1.png" alt="">
+						<span>Пьер, компания “Монклер”</span>
+					</div> 
+					<div class="clients__item-text">
+						<p>Остались только положительные эмоции от посещения вашего хостела, хорошая комната с красивым видом, не далеко до метро, да еще и в центре, очень удобно))) Очень уютная почти домашняя обстановка, чистота и ухоженность во всем. Потрясающее отношение персонала к гостям, организация отдыха. Есть wi-fi, если нет телефона или планшета под рукой, то в хостеле есть общий компьютер. Кровати были удобными, а в номере были предусмотрены небольшие индивидуальные шкафчики, также как и вешалки-плечики.</p>
+					</div>
+				</div>
+
+				<div class="clients__item swiper-slide">
+					<div class="clients__item-img">
+						<img src="img/clients-img1.png" alt="">
+						<span>Сергей, компания “Монклер”</span>
+					</div>
+					<div class="clients__item-text">
+						<p>Остались только положительные эмоции от посещения вашего хостела, хорошая комната с красивым видом, не далеко до метро, да еще и в центре, очень удобно))) Очень уютная почти домашняя обстановка, чистота и ухоженность во всем. Потрясающее отношение персонала к гостям, организация отдыха. Есть wi-fi, если нет телефона или планшета под рукой, то в хостеле есть общий компьютер. Кровати были удобными, а в номере были предусмотрены небольшие индивидуальные шкафчики, также как и вешалки-плечики.</p>
+					</div>          
+				</div>
+
+
+                    <div class="clients__item swiper-slide">
+                        <div class="clients__item-img">
+                            <img src="img/clients-img1.png" alt="">
+                            <span>Антон, компания “Монклер”</span>
+                        </div>                        
+                        <div class="clients__item-text">
+                            <p>Остались только положительные эмоции от посещения вашего хостела, хорошая комната с красивым видом, не далеко до метро, да еще и в центре, очень удобно))) Очень уютная почти домашняя обстановка, чистота и ухоженность во всем. Потрясающее отношение персонала к гостям, организация отдыха. Есть wi-fi, если нет телефона или планшета под рукой, то в хостеле есть общий компьютер. Кровати были удобными, а в номере были предусмотрены небольшие индивидуальные шкафчики, также как и вешалки-плечики.</p>
+                        </div>
+                    </div>
+
+                    <div class="clients__item swiper-slide">
+                        <div class="clients__item-img">
+                            <img src="img/clients-img1.png" alt="">
+                            <span>Дмитрий, компания “Монклер”</span>
+                        </div>                        
+                        <div class="clients__item-text">
+                            <p>Остались только положительные эмоции от посещения вашего хостела, хорошая комната с красивым видом, не далеко до метро, да еще и в центре, очень удобно))) Очень уютная почти домашняя обстановка, чистота и ухоженность во всем. Потрясающее отношение персонала к гостям, организация отдыха. Есть wi-fi, если нет телефона или планшета под рукой, то в хостеле есть общий компьютер. Кровати были удобными, а в номере были предусмотрены небольшие индивидуальные шкафчики, также как и вешалки-плечики.</p>
+                        </div>
+                    </div>
+
+                    <div class="clients__item swiper-slide">
+                        <div class="clients__item-img">
+                            <img src="img/clients-img1.png" alt="">
+                            <span>Владимир, компания “Монклер”</span>
+                        </div>                        
+                        <div class="clients__item-text">
+                            <p>Остались только положительные эмоции от посещения вашего хостела, хорошая комната с красивым видом, не далеко до метро, да еще и в центре, очень удобно))) Очень уютная почти домашняя обстановка, чистота и ухоженность во всем. Потрясающее отношение персонала к гостям, организация отдыха. Есть wi-fi, если нет телефона или планшета под рукой, то в хостеле есть общий компьютер. Кровати были удобными, а в номере были предусмотрены небольшие индивидуальные шкафчики, также как и вешалки-плечики.</p>
+                        </div>
+                    </div>
+
+			</div>
+			<div class="swiper--prev"></div>
+			<div class="swiper--next"></div>
+		</div>
+		<div class="clients-footer">
+			<p><a href="">Напишите нам</a>, что бы Вы хотели изменить или добавить</p>
+		</div>
+	</div>
+</section>
+
+
+<footer class="main-footer">
+	<div class="google__map">
+		<div class="overlay" onClick="style.pointerEvents='none'"></div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28781.117326317813!2d30.42982744765968!3d50.38677553028952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c90e2efec339%3A0x23990192e4dd0598!2z0LLRg9C70LjRhtGPINCa0LjRl9Cy0YHRjNC60LAsIDEyLCDQmtC40ZfQsg!5e0!3m2!1sru!2sua!4v1469385516684" width="100%" height="615" frameborder="0" style="border:0" allowfullscreen></iframe>            
+	</div>
+	<div class="container">
+		<div class="contact-footer">
+			<div class="main-contact">
+				
+			</div>
+			<div class="their-contact">
+				
+			</div>
+		</div>
+	</div>	
+</footer>
+
+
+<script src="js/swiper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	<!-- custom scrollbar plugin -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	
+
+<script>
+	$('.tabs-nav-clip li a').click(function(){
+		/*знаходимо ідентиффкатор панелі*/
+		var id = $(this).attr('data-id');
+			
+		/*видаляємо class tabs-panel-active з усых панелей*/
+		$('.tabs-panel').removeClass('tabs-panel-active');
+			
+		/*додамо класс активны вибраній панелі*/
+		$('.tabs-panel[data-id='+id+']').addClass('tabs-panel-active');
+			
+			
+		/*видаляємо class tabs-panel-active з усых панелей*/
+		$('.tabs-nav-clip li').removeClass('tabs-selected');
+			
+		/*додамо класс активны вибраній панелі*/
+		$(this).parent().addClass('tabs-selected');
+			
+		return false;
+	});
+</script>
+
+
+<script>
+	$(document).ready(function() {
+		$('.sliderkit-nav').mousewheel(function(e, delta) {
+			this.scrollLeft -= (delta * 40);
+			e.preventDefault();
+		});
+	});
+</script>
+
+<script>
+	var swiper = new Swiper('.swiper-clients', {
+		paginationClickable: true,
+		nextButton: '.swiper--next',
+		prevButton: '.swiper--prev',
+		speed: 600,
+		loop: true,
+		simulateTouch: false
+	});
+</script>
+
+
+</body>
+</html>
